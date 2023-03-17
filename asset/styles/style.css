@@ -276,7 +276,7 @@ header.container img {
 
 header{
     width: 100%;
-    position:sticky;
+    position: sticky;
     z-index:0;
     top:0;
 }
