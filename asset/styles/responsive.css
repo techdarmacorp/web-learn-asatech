@@ -1,0 +1,159 @@
+@media screen and (max-width: 1200px) {
+    
+}
+
+@media screen and (max-width: 992px) {
+    .bottom-item {
+        flex-basis:25%;
+    }
+
+    .half {
+        flex-basis:25%;
+    }
+
+    .bottom-form .bottom-item {
+        flex-basis: 45%;
+    }
+
+    .bottom-form .double {
+        flex-basis: 100%;
+    }
+
+    .footer-left img {
+        width:40%;
+    }
+
+    .footer-right {
+        flex-basis:50%;
+    }
+    .footer-right .footer-item {
+        flex-basis:100%;
+    }
+
+    .header-right {
+        display: none;
+    }
+
+    .header-shadow {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 48px 72px;
+    }
+    
+    .row {
+        flex-direction: column;
+    }
+
+    .row-image {
+        align-items: center;
+        order: -1;
+    }
+
+    .row-image img {
+        max-width: 80%;
+    }
+    
+    .bottom-item {
+        flex-basis:50%;
+    }
+
+    .bottom-form {
+        flex-direction: column;
+    }
+
+    header.row {
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    h4 {
+        font-size: 23px;
+        font-weight: 500;
+        line-height: 33px;
+        letter-spacing: 0.15px;
+    }
+
+    h5 {
+        font-size: 19px;
+        font-weight: 500;
+        line-height: 29px;
+        letter-spacing: 0.15px;
+    }
+
+    h6 {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0.15px;
+    }
+
+    .sub2 {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0.4px;
+    }
+
+    .button {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0.4px;
+    }
+    
+    .container {
+        padding: 32px 40px;
+    }
+
+    .column {
+        gap: 32px;
+    }
+
+    .top {
+        gap: 8px;
+    }
+
+    .bottom {
+        gap:24px;
+    }
+
+    .bottom-item {
+        gap: 8px;
+    }
+
+    .row {
+        gap: 32px
+    }
+
+    .row-image img {
+        max-width: 65%;
+    }
+    
+    .bottom-item {
+        flex-basis:80%;
+    }
+
+    .row-button, .button-item {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-left img {
+        width: 100%;
+    }
+
+    .footer-right {
+        flex-direction: column;
+        gap: 16px
+    }
+
+    header.container {
+        justify-content: space-between;
+        padding: 32px 40px;
+    }
+}
